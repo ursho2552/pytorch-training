@@ -10,12 +10,16 @@ level: 2
 
 # Biological Neuron
 
-<div class="w-1/2">
+<br><br/>
+
+<div class="w-full">
         <img src="/images/Neuron3-dark.svg" alt="Neuron Diagram" />
     <div class="text-xs text-gray-500 italic mt-1">
         By <a href="//commons.wikimedia.org/wiki/User:Egm4313.s12" title="User:Egm4313.s12">Egm4313.s12</a> (Prof. Loc Vu-Quoc) - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=72801384">Link</a>
     </div>
 </div>
+
+
 
 ---
 level: 2
@@ -23,10 +27,25 @@ level: 2
 
 # First Artificial Neuron
 
-first artificial neuron was the Threshold Logic Unit (TLU), or Linear Threshold Unit, first proposed by Warren McCulloch and Walter Pitts in 1943
+<br><br/>
 
-<div class="w-1/2">
+<div grid="~ cols-2 gap-4">
+<div class="col-span-1">
+
+- Threshold Logic Unit (TLU), or Linear Threshold Unit
+- Warren McCulloch and Walter Pitts in 1943
+- Simple model of a biological neuron
+- Fixed number of inputs and outputs
+- Logical gate-like behavior (AND, OR, NOT)
+
+</div>
+<div class="col-span-1">
+
+<div class="w-full">
         <img src="/images/tlu-dark.svg" alt="TLU Diagram" />
+</div>
+
+</div>
 </div>
 
 
@@ -36,10 +55,23 @@ level: 2
 
 # Perceptron
 
-Rosenblatt's Perceptron, introduced in 1958, was the first algorithm for supervised learning of binary classifiers. It is a linear classifier that maps its input features to a single output value.
+<br><br/>
 
-<div class="w-1/2">
+<div grid="~ cols-2 gap-4">
+<div class="col-span-1">
+
+- Rosenblatt's Perceptron (1958)
+- First algorithm for supervised learning of binary classifiers
+- Maps its input features to a single output value
+
+</div>
+<div class="col-span-1">
+
+<div class="w-full">
         <img src="/images/perceptron-dark.svg" alt="TLU Diagram" />
+</div>
+
+</div>
 </div>
 
 ---
@@ -614,7 +646,7 @@ level: 2
   <div
     v-motion
     :initial="{ x: -320, y: 134}"
-    :enter="{ x: -205, y: 140, rotate: 30}"
+    :enter="{ x: -250, y: 140, rotate: -30}"
     v-click
   >
   <svg
@@ -633,8 +665,8 @@ level: 2
 
   <div
     v-motion
-    :initial="{ x: -205, y: 140, rotate: 30}"
-    :enter="{ x: -250, y: 195, rotate: -70}"
+    :initial="{ x: -250, y: 140, rotate: -30}"
+    :enter="{ x: -170, y: 120, rotate: 40}"
     v-click
   >
   <svg
@@ -653,8 +685,8 @@ level: 2
 
   <div
     v-motion
-    :initial="{ x: -250, y: 195, rotate: -70}"
-    :enter="{ x: -240, y: 202, rotate: -100}"
+    :initial="{ x: -170, y: 120, rotate: 40}"
+    :enter="{ x: -178, y: 130, rotate: 5}"
     v-click
   >
   <svg

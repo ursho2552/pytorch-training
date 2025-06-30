@@ -40,12 +40,12 @@ contextMenu: false
 
 # Hands-on Introduction to Deep Learning with PyTorch
 
-ETH Zurich - Swiss National Supercomputing Centre (CSCS)<br/>
+Swiss National Supercomputing Centre (CSCS) - ETH Zurich<br/>
 2-4 July 2025, Lugano<br/>
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
+<!--<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">-->
+<!--  Press Space for next page <carbon:arrow-right />-->
+<!--</div>-->
 
 ---
 src: ./1.1-introduction/section-slides.md
@@ -59,6 +59,21 @@ hide: false
 
 ---
 src: ./1.3-lab/section-slides.md
+hide: false
+---
+
+---
+src: ./2.1-featurisation/section-slides.md
+hide: false
+---
+
+---
+src: ./2.2-cnn/section-slides.md
+hide: false
+---
+
+---
+src: ./3.1-more_on_training/section-slides.md
 hide: false
 ---
 
