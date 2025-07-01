@@ -48,6 +48,11 @@ Swiss National Supercomputing Centre (CSCS) - ETH Zurich<br/>
 <!--</div>-->
 
 ---
+src: ./1.0-outline/section-slides.md
+hide: false
+---
+
+---
 src: ./1.1-introduction/section-slides.md
 hide: false
 ---
@@ -58,17 +63,17 @@ hide: false
 ---
 
 ---
-src: ./1.3-lab/section-slides.md
-hide: false
----
-
----
 src: ./2.1-featurisation/section-slides.md
 hide: false
 ---
 
 ---
 src: ./2.2-cnn/section-slides.md
+hide: false
+---
+
+---
+src: ./2.3-distributed/section-slides.md
 hide: false
 ---
 
