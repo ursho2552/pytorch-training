@@ -142,7 +142,7 @@ $(5 \times 5 \times 3 + 1) \times 200 = 15,200$ parameters!
 <div grid="~ cols-2 gap-4">
 <div>
 
-![CNN](./imgs/lenet.png)
+![CNN](./imgs/lenet-cropped.png)
 
 </div>
 <div>
@@ -159,6 +159,11 @@ $(5 \times 5 \times 3 + 1) \times 200 = 15,200$ parameters!
 
 </div>
 </div>
+
+CNNs for classification have two conceptual building blocks:
+
+* Feature extractor (convolution layers)
+* Classifier (linear layers)
 
 <div class="text-xs text-center mt-8">
 https://github.com/HarisIqbal88/PlotNeuralNet
@@ -447,10 +452,12 @@ $$
 \mathcal{L} = -\frac{1}{N} \sum_{i=1}^{N} \left( y_i \log(p_i) + (1 - y_i) \log(1 - p_i) \right)
 $$
 
-```python
+```python {5,7}
+import torch.nn.functional as F
+
 def forward(self, x):
     # ...
-    return torch.sigmoid(x)
+    return F.sigmoid(x)
 
 loss = nn.BCELoss()
 ```
@@ -481,10 +488,12 @@ $$
 <div grid="~ cols-2 gap-4">
 <div>
 
-```python
+```python {5,7}
+import torch.nn.functional as F
+
 def forward(self, x):
     # ...
-    return torch.softmax(x, dim=1)
+    return F.softmax(x, dim=1)
 
 loss = nn.CrossEntropyLoss()
 ```
@@ -492,7 +501,9 @@ loss = nn.CrossEntropyLoss()
 </div>
 <div>
 
-```python
+```python {5,7}
+import torch.nn.functional as F
+
 def forward(self, x):
     # ...
     return F.log_softmax(x, dim=1)
@@ -504,7 +515,6 @@ loss = nn.NLLLoss()
 </div>
 
 ---
-
 
 # What have we missed?
 
