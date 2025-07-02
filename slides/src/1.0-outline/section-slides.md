@@ -18,7 +18,7 @@ level: 2
 <br></br>
 👨‍🏫 Instructors: Rafael Sarmiento, Rocco Meli, Fabian Bösch
 <br></br>
-🔗 Hosted by: CSCS
+🔗 Hosted by: CSCS / ETH Zurich
 
 ---
 level: 2
@@ -36,10 +36,10 @@ We assume:
 ## Logistics & Communication
 
 - Questions? Ask anytime!
-  - We also have a slack channel
+  - We also have a Slack channel
 - Course materials: <a href="https://github.com/eth-cscs/pytorch-training">https://github.com/eth-cscs/pytorch-training</a>
-- We'll the CSCS machine for exercises
-  - Login details will be provided (email)
+- We'll use CSCS' ALPS cluster for the exercises
+  - Login details will be provided (e-mail)
 
 ---
 level: 2
@@ -51,11 +51,11 @@ We’ll cover:
 
 - Fundamentals of Machine Learning
 - Working with PyTorch
-- Hands on exercises with JupyterLab on CSCS's machine
+- Hands on exercises with JupyterLab on CSCS' ALPS cluster
+- Feature extraction from text and images
 - Convolutional Neural Networks (CNNs)
-- Feature extraction from text/images
 - Distributed training
-- Introduction to LLMs
+- Introduction to Large Language Models (LLMs)
 
 <Admonition type="info" title="Course Material">
 Link to the course material and exercises can be found at:
@@ -73,6 +73,6 @@ level: 2
 | **Start**   | 10:00                            | 09:00                           | 09:00                         |
 | **Morning** | Introduction to Neural <br> Networks | More on Training     | Introduction to LLMs               |
 | **Lunch**   | 12:00–13:00                       | 12:00–13:00                      | 12:00–13:00                   |
-| **Afternoon** | Intorduction to CNNs & <br> Feature extraction for <br> computer vision and <br> language modeling | Machine Room visit <br> Distributed training | LLMs (continued)              |
+| **Afternoon** | Introduction to CNNs & <br> Feature extraction for <br> computer vision and <br> language modeling | Machine Room visit <br> Distributed training | LLMs (continued)              |
 | **End**   | 17:00                            | 17:00                           | 16:00                         |
 
