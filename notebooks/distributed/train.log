@@ -1,0 +1,130 @@
+0: [Rank 0] Dataset already exists, skipping download.
+0: [INFO] Dataset size: 50000 samples
+0: [INFO] World size: 4 workers (data parallel)
+0: [INFO] Global batch size: 256
+0: [INFO] Local batch size per worker: 64
+0: [INFO] Samples per worker per epoch: 12500
+0: [Rank 0] Running in DDP mode with 4 processes
+0: [1m[96m> global batch        0/    2940 [0m| elapsed time per batch (ms): 1370.2 | learning rate: 1.000E-03 |[92m loss: 147.42198[0m | memory used: 0.074 GB (peak 0.085 GB) | grad_norm: 6.04
+0: [1m[96m> global batch       32/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 113.88566[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 137.30
+0: [1m[96m> global batch       64/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 103.93169[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 217.33
+0: [1m[96m> global batch       96/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 102.26096[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 149.15
+0: [1m[96m> global batch      128/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 93.93453[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 238.27
+0: [1m[96m> global batch      160/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 88.31739[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 152.89
+0: [1m[96m> global batch      192/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 90.51315[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 71.92
+0: [Epoch 1] Val Loss: 1.3725 | Accuracy: 49.80%  | Train Loss: 103.6640
+0: [METRIC] epoch=1 time=3.72 val_loss=1.3725 acc=49.80 peak_mem=91MB
+0: [1m[96m> global batch      224/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 85.09943[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 246.91
+0: [1m[96m> global batch      256/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 85.72112[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 142.55
+0: [1m[96m> global batch      288/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 83.48468[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 192.36
+0: [1m[96m> global batch      320/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 79.26373[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 181.54
+0: [1m[96m> global batch      352/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 79.61653[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 99.93
+0: [1m[96m> global batch      384/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 76.72977[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 123.69
+0: [Epoch 2] Val Loss: 1.2102 | Accuracy: 55.93%  | Train Loss: 82.0006
+0: [METRIC] epoch=2 time=2.21 val_loss=1.2102 acc=55.93 peak_mem=91MB
+0: [1m[96m> global batch      416/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 84.15529[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 370.72
+0: [1m[96m> global batch      448/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 71.88139[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 104.16
+0: [1m[96m> global batch      480/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 73.05111[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 192.37
+0: [1m[96m> global batch      512/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 69.59230[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 180.09
+0: [1m[96m> global batch      544/    2940 [0m| elapsed time per batch (ms): 3.9 | learning rate: 1.000E-03 |[92m loss: 70.52061[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 243.10
+0: [1m[96m> global batch      576/    2940 [0m| elapsed time per batch (ms): 3.0 | learning rate: 1.000E-03 |[92m loss: 75.03250[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 242.50
+0: [Epoch 3] Val Loss: 1.0981 | Accuracy: 61.07%  | Train Loss: 71.8858
+0: [METRIC] epoch=3 time=2.21 val_loss=1.0981 acc=61.07 peak_mem=91MB
+0: [1m[96m> global batch      608/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 65.19032[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 183.10
+0: [1m[96m> global batch      640/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 69.52278[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 142.70
+0: [1m[96m> global batch      672/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 58.71265[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 133.71
+0: [1m[96m> global batch      704/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 62.18702[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 200.48
+0: [1m[96m> global batch      736/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 59.43871[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 117.32
+0: [1m[96m> global batch      768/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 64.76181[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 222.32
+0: [Epoch 4] Val Loss: 1.0033 | Accuracy: 64.45%  | Train Loss: 63.9884
+0: [METRIC] epoch=4 time=2.21 val_loss=1.0033 acc=64.45 peak_mem=91MB
+0: [1m[96m> global batch      800/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 60.36563[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 187.01
+0: [1m[96m> global batch      832/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 66.75334[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 216.41
+0: [1m[96m> global batch      864/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 53.27419[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 210.60
+0: [1m[96m> global batch      896/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 56.63269[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 164.79
+0: [1m[96m> global batch      928/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 57.95896[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 152.85
+0: [1m[96m> global batch      960/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 56.79730[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 162.01
+0: [Epoch 5] Val Loss: 1.0095 | Accuracy: 64.21%  | Train Loss: 58.1042
+0: [METRIC] epoch=5 time=2.37 val_loss=1.0095 acc=64.21 peak_mem=91MB
+0: [1m[96m> global batch      992/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 52.81741[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 192.72
+0: [1m[96m> global batch     1024/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 54.58423[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 187.14
+0: [1m[96m> global batch     1056/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 60.42625[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 246.95
+0: [1m[96m> global batch     1088/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 64.40199[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 223.90
+0: [1m[96m> global batch     1120/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 52.41567[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 207.16
+0: [1m[96m> global batch     1152/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 48.92445[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 243.61
+0: [Epoch 6] Val Loss: 0.9176 | Accuracy: 67.90%  | Train Loss: 53.4723
+0: [METRIC] epoch=6 time=2.21 val_loss=0.9176 acc=67.90 peak_mem=91MB
+0: [1m[96m> global batch     1184/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 44.00264[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 154.09
+0: [1m[96m> global batch     1216/    2940 [0m| elapsed time per batch (ms): 2.9 | learning rate: 1.000E-03 |[92m loss: 41.97620[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 130.67
+0: [1m[96m> global batch     1248/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 52.98463[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 190.30
+0: [1m[96m> global batch     1280/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 48.30706[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 187.74
+0: [1m[96m> global batch     1312/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 45.53498[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 150.37
+0: [1m[96m> global batch     1344/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 50.17197[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 194.83
+0: [Epoch 7] Val Loss: 0.8797 | Accuracy: 69.56%  | Train Loss: 48.9115
+0: [METRIC] epoch=7 time=2.21 val_loss=0.8797 acc=69.56 peak_mem=91MB
+0: [1m[96m> global batch     1376/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 43.61981[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 197.99
+0: [1m[96m> global batch     1408/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 44.73768[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 266.55
+0: [1m[96m> global batch     1440/    2940 [0m| elapsed time per batch (ms): 2.9 | learning rate: 1.000E-03 |[92m loss: 46.84167[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 154.06
+0: [1m[96m> global batch     1472/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 49.04602[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 222.92
+0: [1m[96m> global batch     1504/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 40.13634[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 148.44
+0: [1m[96m> global batch     1536/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 47.65092[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 228.45
+0: [Epoch 8] Val Loss: 0.8470 | Accuracy: 70.57%  | Train Loss: 44.5364
+0: [METRIC] epoch=8 time=2.21 val_loss=0.8470 acc=70.57 peak_mem=91MB
+0: [1m[96m> global batch     1568/    2940 [0m| elapsed time per batch (ms): 2.8 | learning rate: 1.000E-03 |[92m loss: 40.73230[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 204.92
+0: [1m[96m> global batch     1600/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 38.70789[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 245.88
+0: [1m[96m> global batch     1632/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 44.76801[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 298.44
+0: [1m[96m> global batch     1664/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 40.32099[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 178.67
+0: [1m[96m> global batch     1696/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 46.11807[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 239.35
+0: [1m[96m> global batch     1728/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 35.95555[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 131.08
+0: [1m[96m> global batch     1760/    2940 [0m| elapsed time per batch (ms): 3.1 | learning rate: 1.000E-03 |[92m loss: 40.70777[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 163.59
+0: [Epoch 9] Val Loss: 0.8519 | Accuracy: 70.68%  | Train Loss: 40.0216
+0: [METRIC] epoch=9 time=2.20 val_loss=0.8519 acc=70.68 peak_mem=91MB
+0: [1m[96m> global batch     1792/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 28.82774[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 154.41
+0: [1m[96m> global batch     1824/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 38.96274[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 177.10
+0: [1m[96m> global batch     1856/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 37.55923[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 113.86
+0: [1m[96m> global batch     1888/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 36.18091[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 256.38
+0: [1m[96m> global batch     1920/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 36.73229[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 206.32
+0: [1m[96m> global batch     1952/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 39.59848[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 138.30
+0: [Epoch 10] Val Loss: 0.8173 | Accuracy: 72.16%  | Train Loss: 37.3658
+0: [METRIC] epoch=10 time=2.21 val_loss=0.8173 acc=72.16 peak_mem=91MB
+0: [1m[96m> global batch     1984/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 29.34419[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 148.37
+0: [1m[96m> global batch     2016/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 32.95326[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 203.42
+0: [1m[96m> global batch     2048/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 26.90828[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 161.05
+0: [1m[96m> global batch     2080/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 31.58472[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 179.94
+0: [1m[96m> global batch     2112/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 38.22697[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 218.32
+0: [1m[96m> global batch     2144/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 32.47731[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 140.26
+0: [Epoch 11] Val Loss: 0.8258 | Accuracy: 71.99%  | Train Loss: 33.2722
+0: [METRIC] epoch=11 time=2.22 val_loss=0.8258 acc=71.99 peak_mem=91MB
+0: [1m[96m> global batch     2176/    2940 [0m| elapsed time per batch (ms): 3.8 | learning rate: 1.000E-03 |[92m loss: 28.93530[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 179.40
+0: [1m[96m> global batch     2208/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 29.51195[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 176.23
+0: [1m[96m> global batch     2240/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 33.89862[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 249.50
+0: [1m[96m> global batch     2272/    2940 [0m| elapsed time per batch (ms): 3.8 | learning rate: 1.000E-03 |[92m loss: 25.12490[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 143.46
+0: [1m[96m> global batch     2304/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 29.32520[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 170.25
+0: [1m[96m> global batch     2336/    2940 [0m| elapsed time per batch (ms): 3.2 | learning rate: 1.000E-03 |[92m loss: 35.29102[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 179.46
+0: [Epoch 12] Val Loss: 0.8269 | Accuracy: 73.07%  | Train Loss: 30.2895
+0: [METRIC] epoch=12 time=2.25 val_loss=0.8269 acc=73.07 peak_mem=91MB
+0: [1m[96m> global batch     2368/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 26.75888[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 134.20
+0: [1m[96m> global batch     2400/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 23.76987[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 164.31
+0: [1m[96m> global batch     2432/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 25.99908[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 151.96
+0: [1m[96m> global batch     2464/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 27.37330[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 180.17
+0: [1m[96m> global batch     2496/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 25.90813[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 170.61
+0: [1m[96m> global batch     2528/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 31.22784[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 184.45
+0: [Epoch 13] Val Loss: 0.8474 | Accuracy: 72.64%  | Train Loss: 26.1513
+0: [METRIC] epoch=13 time=2.23 val_loss=0.8474 acc=72.64 peak_mem=91MB
+0: [1m[96m> global batch     2560/    2940 [0m| elapsed time per batch (ms): 3.9 | learning rate: 1.000E-03 |[92m loss: 20.14109[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 137.75
+0: [1m[96m> global batch     2592/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 17.50309[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 137.60
+0: [1m[96m> global batch     2624/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 24.34592[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 166.69
+0: [1m[96m> global batch     2656/    2940 [0m| elapsed time per batch (ms): 3.9 | learning rate: 1.000E-03 |[92m loss: 19.94510[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 113.53
+0: [1m[96m> global batch     2688/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 14.92852[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 110.80
+0: [1m[96m> global batch     2720/    2940 [0m| elapsed time per batch (ms): 4.1 | learning rate: 1.000E-03 |[92m loss: 26.74016[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 188.46
+0: [Epoch 14] Val Loss: 0.8948 | Accuracy: 72.07%  | Train Loss: 23.0298
+0: [METRIC] epoch=14 time=2.26 val_loss=0.8948 acc=72.07 peak_mem=91MB
+0: [1m[96m> global batch     2752/    2940 [0m| elapsed time per batch (ms): 3.7 | learning rate: 1.000E-03 |[92m loss: 21.59963[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 146.83
+0: [1m[96m> global batch     2784/    2940 [0m| elapsed time per batch (ms): 3.6 | learning rate: 1.000E-03 |[92m loss: 24.58592[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 210.96
+0: [1m[96m> global batch     2816/    2940 [0m| elapsed time per batch (ms): 3.3 | learning rate: 1.000E-03 |[92m loss: 17.07780[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 115.03
+0: [1m[96m> global batch     2848/    2940 [0m| elapsed time per batch (ms): 3.5 | learning rate: 1.000E-03 |[92m loss: 15.97773[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 125.13
+0: [1m[96m> global batch     2880/    2940 [0m| elapsed time per batch (ms): 3.8 | learning rate: 1.000E-03 |[92m loss: 22.49437[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 187.29
+0: [1m[96m> global batch     2912/    2940 [0m| elapsed time per batch (ms): 3.4 | learning rate: 1.000E-03 |[92m loss: 17.35979[0m | memory used: 0.074 GB (peak 0.089 GB) | grad_norm: 124.53
+0: [1m[96m> global batch     2939/    2940 [0m| elapsed time per batch (ms): 2.9 | learning rate: 1.000E-03 |[92m loss: 5.77312[0m | memory used: 0.073 GB (peak 0.089 GB) | grad_norm: 68.94
+0: [Epoch 15] Val Loss: 0.9824 | Accuracy: 71.94%  | Train Loss: 20.4082
+0: [METRIC] epoch=15 time=2.26 val_loss=0.9824 acc=71.94 peak_mem=91MB
