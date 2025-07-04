@@ -1,0 +1,2 @@
+0: /usr/local/lib/python3.12/dist-packages/torch/distributed/fsdp/_init_utils.py:430: UserWarning: FSDP is switching to use `NO_SHARD` instead of ShardingStrategy.FULL_SHARD since the world size is 1.
+0:   warnings.warn(
